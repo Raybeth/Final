@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Estilos personalizados */
+
+body {
+    display: flex !important;
+    min-height: 100vh !important;
+    flex-direction: column !important;
+  }
+
+  main {
+    flex: 1 0 auto !important;
+  }
+
+  .about-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+.values-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .values-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .values-list li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #2196F3; /* Ajusta el color de la viñeta */
+  }
+  
+  /* Estilos de Materialize CSS */
+  
+  /* ... Agrega aquí los estilos específicos de Materialize CSS según tus necesidades ... */
+  
